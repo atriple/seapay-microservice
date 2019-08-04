@@ -2,7 +2,7 @@
 
  - [Description](#Description)
  - [Installation](#Installation)
- - [Additional Infromations](#)
+ - [Additional Infromations](#additional-informations)
 
 ## Description
  
@@ -26,10 +26,13 @@ The project itself has several modules
  - seapay-monolith
    - an entry point of our monolithic app, including all handlers
  - seapay-gateway-service
-    - microservice to hold all
+    - service that hold all client request
  - seapay-transaction-service
+    - service for transaction 
  - seapay-user-service
+    - module to access user service
  - seapay-wallet-service
+    - module to access wallet service
   
 ## Installation
 ### For Linux
